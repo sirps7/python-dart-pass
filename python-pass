@@ -1,0 +1,14 @@
+# Online Python - IDE, Editor, Compiler, Interpreter
+def sum():
+    a = int(input("Enter x value :"))
+    numbers = []
+    for i in range(0,a):
+        c = int(input())
+        numbers.append(c)
+    for j in range(0,a):
+        if (numbers[j] % 2) == 0:
+            print("{0} is Even".format(numbers[j]))
+        else:
+            print("{0} is Odd".format(numbers[j]))
+   
+sum()
