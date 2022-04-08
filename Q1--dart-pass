@@ -1,0 +1,4 @@
+ main() {
+	const hour = DateTime.now().hour;    // The error is here we can store only data of type constant in const variable and DataTime is not constant
+	print(hour);
+}
